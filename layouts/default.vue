@@ -1,5 +1,5 @@
 <template>
-  <v-app dark>
+  <v-app dark hidden>
     <v-main>
       <v-container class="fluid pa-0">
         <nuxt />
@@ -10,7 +10,13 @@
 
 <script>
 export default {
+  $el: '#app',
 
+  // eslint-disable-next-line
+  mounted:function(){this.$nextTick(function(){
+    this.$el.removeAttribute('hidden')
+  })
+  }
 }
 </script>
 
