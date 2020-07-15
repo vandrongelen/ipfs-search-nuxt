@@ -7,7 +7,7 @@
             DWEB <span>SEARCH</span>
           </h2>
           <p class="mb-2 text-center">
-            Search for the Distributed&#160;Web
+            Search the Distributed&#160;Web
           </p>
           <searchbar />
         </v-col>
